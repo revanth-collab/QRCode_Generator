@@ -44,7 +44,7 @@ const QRGenerator = () => {
                     QR Generator
                 </h1>
 
-                <div className="flex flex-row gap-6">
+                <div className="flex flex-col md:flex-row gap-6">
                     <div className="flex flex-col">
                         <div className="mb-6">
                             <label htmlFor="text" className="block text-sm font-medium mb-2">Website URL</label>
